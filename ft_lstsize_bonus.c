@@ -6,7 +6,7 @@
 /*   By: jpedro-a <jpedro-a@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/23 16:56:41 by jpedro-a          #+#    #+#             */
-/*   Updated: 2023/05/23 17:07:02 by jpedro-a         ###   ########.fr       */
+/*   Updated: 2023/05/23 19:48:35 by jpedro-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ int	ft_lstsize(t_list *lst)
 
 	i = 0;
 	while (lst != NULL)
-    {
-        lst = lst->next;
-    	i++;    
-    }    
+	{
+		lst = lst->next;
+		i++;
+	}
 	return (i);
 }

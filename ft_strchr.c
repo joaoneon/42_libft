@@ -6,7 +6,7 @@
 /*   By: jpedro-a <jpedro-a@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/04 16:21:30 by jpedro-a          #+#    #+#             */
-/*   Updated: 2023/05/19 19:02:53 by jpedro-a         ###   ########.fr       */
+/*   Updated: 2023/05/23 19:49:00 by jpedro-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,6 @@ char	*ft_strchr(const char *s, int c)
 		if (s[i] == character)
 			return (&str[i]);
 	if (character == '\0')
-		return (&str[i]);		
+		return (&str[i]);
 	return (0);
 }

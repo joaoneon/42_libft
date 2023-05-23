@@ -6,7 +6,7 @@
 /*   By: jpedro-a <jpedro-a@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/18 16:07:56 by jpedro-a          #+#    #+#             */
-/*   Updated: 2023/05/19 18:26:56 by jpedro-a         ###   ########.fr       */
+/*   Updated: 2023/05/23 19:48:05 by jpedro-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ char	*ft_itoa(int n)
 	str[i] = '\0';
 	return (str);
 }
+
 static int	ft_get_index(int n)
 {
 	int	temp;
