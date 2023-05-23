@@ -6,7 +6,7 @@
 #    By: jpedro-a <jpedro-a@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/11 16:13:37 by jpedro-a          #+#    #+#              #
-#    Updated: 2023/05/19 17:31:47 by jpedro-a         ###   ########.fr        #
+#    Updated: 2023/05/23 16:47:21 by jpedro-a         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,6 +21,10 @@ SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 OBJ = ${SRC:.c=.o}
 CFLAGS = -Wall -Werror -Wextra
 NAME = libft.a
+BONUS = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c \
+		ft_lstlast_bonus.c ft_lstadd_back_bonus.c ft_lstdelone_bonus.c \
+		ft_lstclear_bonus.c ft_lstiter_bonus.c ft_lstmap_bonus.c
+BONUS_OBJ = ${BONUS:.c=.o}
 
 all: ${NAME}
 
@@ -29,8 +33,10 @@ all: ${NAME}
 
 ${NAME}: ${OBJ}
 	ar rcs ${NAME} ${OBJ}
+bonus: ${BONUS_OBJ}
+	ar rcs ${NAME} ${BONUS_OBJ}
 clean:
-	rm -f ${OBJ}
+	rm -f ${OBJ} ${BONUS_OBJ}
 fclean: clean
 	rm -f ${NAME}
 re: fclean all
