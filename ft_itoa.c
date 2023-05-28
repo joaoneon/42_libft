@@ -46,7 +46,7 @@ static int	ft_get_index(int n)
 		temp *= -1;
 		i++;
 	}
-	while (temp > 10)
+	while (temp >= 10)
 	{
 		temp = temp / 10;
 		i++;
