@@ -8,7 +8,7 @@
   About the project:
   </h3>
     <p>
-      The goal of this project is to re-code some of the Standard C library functions, and other suplementary functions. All functions must behavior as the originals.
+    The goal of this project is to re-code several functions from the Standard C library, along with additional supplementary functions, ensuring that they maintain the same behavior as the original ones.
       </p>
   <h3 align="left">
     Technology used:
@@ -27,7 +27,7 @@
   Part 1  
 </h3>
 <p align="left">
-  Re-code some of the Standard C library functions. They must behavior as the originals.
+ Refactor certain functions from the Standard C library, ensuring that their behavior matches that of the original functions.
   </p>
 <table align>
   <tr>
@@ -131,7 +131,7 @@
   Part 2  
 </h3>
 <p align="left">
-  Code some helpful functions that aren't in the Standard C libraby.
+  Develop useful functions that are not present in the Standard C library.
   </p>
   <table>
     <tr>
@@ -192,7 +192,7 @@
   Bonus 
 </h3>
 <p align="left">
- Code some functions to manipulate lists.
+Create functions specifically designed for manipulating lists.
   </p>
       <tr>
     <td>Function</td>
@@ -248,7 +248,7 @@
   Instructions to use  
 </h3>
 <p>
-  To use this libft, you first need to clone this repository in your local machine using a terminal: 
+  In order to utilize this "libft" library, you must initially clone the repository onto your local machine by employing a terminal:
   </p>
   <ul>
   <li>
@@ -271,24 +271,24 @@
   </tr>
         <tr>
     <td><b>make clean</b></td>
-    <td>deletes the object files created during cmpilation</td>
+    <td>deletes the object files created during compilation</td>
   </tr>
         <tr>
     <td><b>make fclean</b></td>
-    <td>executes the clean comand and also deletes the libft.a</td>
+    <td>executes the clean command and also deletes the libft.a</td>
   </tr>
         <tr>
     <td><b>make re</b></td>
-    <td>executes the fclean comand followed by the all comand</td>
+    <td>executes the fclean command followed by the all command</td>
   </tr>
         <tr>
     <td><b>make rebonus</b></td>
-    <td>executes the fclean comand followed by the bonus comand</td>
+    <td>executes the fclean command followed by the bonus command</td>
   </tr>   
   </table>
   
   <p>
-  To use libft in your projects you need to include its header:
+  Incorporate the header file of the "libft" library to utilize its functionalities in your projects:
     </p>
   <ul>
     <li>
@@ -298,7 +298,8 @@
       
 
   <p>
-  To compile your projects that use libft you need to use the flags:
+
+When compiling your projects that utilize the "libft" library, it is necessary to employ the appropriate flags:
     </p>
   <ul>
     <li>
