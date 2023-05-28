@@ -40,3 +40,7 @@ clean:
 fclean: clean
 	rm -f ${NAME}
 re: fclean all
+
+rebonus: fclean bonus
+
+.PHONY:	all clean fclean re bonus rebonus
