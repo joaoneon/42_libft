@@ -33,7 +33,7 @@ all: ${NAME}
 
 ${NAME}: ${OBJ}
 	ar rcs ${NAME} ${OBJ}
-bonus: ${BONUS_OBJ}
+bonus: ${OBJ} ${BONUS_OBJ}
 	ar rcs ${NAME} ${BONUS_OBJ}
 clean:
 	rm -f ${OBJ} ${BONUS_OBJ}
